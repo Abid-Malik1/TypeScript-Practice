@@ -60,3 +60,36 @@ function temcheck1(_temp:number){
 }
 
 temcheck1(34);
+
+
+// percentage calculate program without parameter using function
+
+function percentage(){
+    let obtainedMarks = 1010;
+    let totalMarks = 1100;
+    let result= (obtainedMarks / totalMarks) * 100;
+    console.log("Total percentage is " + result);
+}
+
+percentage();
+
+// percentage calculate program with parameter using function
+
+function percentage1(obtainedMarks1, totalMarks1){
+    let result = (obtainedMarks1 / totalMarks1) * 100;
+    console.log("Total percentage1 is " + result);
+}
+
+percentage1(470,550);
+
+// create a program using function and return parameter
+
+function addFun(number1:number, namber2:number){
+
+    let total:number = number1 + namber2;
+    
+    return total
+}
+
+addFun(30,40);
+
