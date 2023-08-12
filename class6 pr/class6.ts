@@ -82,14 +82,77 @@ function percentage1(obtainedMarks1, totalMarks1){
 
 percentage1(470,550);
 
-// create a program using function and return parameter
+// write a program that's calculate sum of two numbers 30,40 using function, and add number 10 after calculation 
 
-function addFun(number1:number, namber2:number){
+function calculate(number1:number,number2:number){
+    let sum:number = number1 + number2;
 
-    let total:number = number1 + namber2;
-    
-    return total
+    return sum;
 }
 
-addFun(30,40);
+let sumResult:number = calculate(30,40);
+sumResult = sumResult + 10;
+console.log("sumResult",sumResult);
+
+
+// write a program that's calculate sum of two numbers 40,40 using function, and add number 20 after calculation 
+
+let addSum:number = calculate(40,40);
+
+addSum = addSum + 20;
+
+console.log("addSum",addSum);
+
+
+// Arrow function example without parameter
+
+
+let arrowFunction = ()=>{
+    let number1:number = 60;
+    let number2:number = 5;
+    let sum:number = number1 + number2;
+
+    console.log("Arrow Function sum is",sum);
+}
+
+arrowFunction();
+
+
+// Arrow function example with parameter
+
+
+let arrowFunction1 = (number1:number,number2)=>{
+    let sum:number = number1 + number2;
+
+    console.log("Arrow Function sum is",sum);
+}
+
+arrowFunction1(40,5);
+
+
+// Arrow function example with parameter and user return value and after calculation is add number 7; 
+
+
+let arrowFunction2 = (number1:number,number2)=>{
+    let sum:number = number1 + number2;
+    return sum;
+}
+
+let sumIs:number = arrowFunction2(40,5);
+
+sumIs = sumIs + 7;
+
+console.log("Return sum is",sumIs);
+
+// Arrow function your code is single line and get value without return keyword
+
+let arrowFunction3 = (number1:number,number2):number=> number1 + number2; 
+
+let tSum:number = arrowFunction3(70,2);
+
+console.log("tSum total is",tSum);
+    
+// Check your function type
+
+console.log(typeof tSum);
 
