@@ -7,3 +7,10 @@ function combine(a:string | number , b:string | number){
 }
 
 console.log(combine(30,20),combine("Abid","Malik"));
+
+console.log("Do you enjoy learning?");
+
+let answer = "Maybe";
+if(answer == answer){
+    console.log("You are tough!");
+}
