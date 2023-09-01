@@ -1,6 +1,7 @@
-var x = 30;
-var y = 40;
-var today;
+"use strict";
+let x = 30;
+let y = 40;
+let today;
 function printData() {
     return today = new Date;
 }

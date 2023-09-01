@@ -1,6 +1,7 @@
+"use strict";
 // let nickName:string = "Abid Malik";
 // nickName = "Malik Abid";
 // console.log(nickName);
-var city;
+let city;
 city = "Pakistan";
-console.log("My City is", city);
+console.log("My city is", city);

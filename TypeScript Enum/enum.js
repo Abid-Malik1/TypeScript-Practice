@@ -1,3 +1,4 @@
+"use strict";
 var Day;
 (function (Day) {
     Day[Day["Monday"] = 0] = "Monday";

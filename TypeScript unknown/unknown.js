@@ -1,9 +1,10 @@
-var data;
+"use strict";
+let data;
 data = 20;
 data = "unknown type";
 data = true;
 data = 2.3;
-var item;
+let item;
 item = "Hello item";
 if (typeof data === "string") {
     item = data;

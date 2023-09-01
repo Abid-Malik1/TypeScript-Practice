@@ -1,3 +1,4 @@
+"use strict";
 // let studentNames: string[] = ["Abid", "Malik", "Assad", "omar", "osman"];
 // studentNames.push();
 // studentNames.pop();
@@ -33,12 +34,12 @@
 //   toDoList2.splice(1, 2);
 //   console.log(toDoList2.toString());
 // }
-var toDoList3 = [
+let toDoList3 = [
     "Learn TypeScript",
     "Learn JavaScript",
     "Learn Nodejs",
     "Learn CSS",
     "learn HTML",
 ];
-toDoList3.join("*");
+toDoList3.join(`*`);
 console.log(toDoList3);

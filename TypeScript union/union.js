@@ -1,3 +1,4 @@
+"use strict";
 function combine(a, b) {
     if (typeof a === "number" && typeof b === "number") {
         return a + b;
@@ -8,7 +9,7 @@ function combine(a, b) {
 }
 console.log(combine(30, 20), combine("Abid", "Malik"));
 console.log("Do you enjoy learning?");
-var answer = "Maybe";
+let answer = "Maybe";
 if (answer == answer) {
     console.log("You are tough!");
 }
