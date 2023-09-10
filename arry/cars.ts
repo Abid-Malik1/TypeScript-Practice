@@ -40,3 +40,4 @@ let cars:carsType[] =[{
 for (let result = 0; result < cars.length; result++){
   console.log(cars[result].company,cars[result].yearNumber);
 }
+

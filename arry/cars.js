@@ -33,6 +33,10 @@ var cars = [{
         company: "Tesla",
         yearNumber: 2010,
     },];
-for (var result = 0; result < cars.length; result++) {
-    console.log(cars[result].company, cars[result].yearNumber);
+// for (let result = 0; result < cars.length; result++){
+//   console.log(cars[result].company,cars[result].yearNumber);
+// }
+for (var index = 0; index < cars.length; index++) {
+    var element = cars[index];
+    console.log(element);
 }
